@@ -5,10 +5,12 @@ Este proyecto ha sido creado con el propósito de obtener valor sobre los datos 
 
 ## Índice
 
-2. [Stack Tecnológico](#-stack-tecnológico)
-3. [Arquitectura de Datos](#arquitectura)
-4. [Instalación y Uso](#instalación)
-5. [Análisis y Hallazgos](#análisis)
+2. [Stack Tecnológico](#stack)
+<a name="stack"></a>
+## 🛠️ Stack Tecnológico
+4. [Arquitectura de Datos](#arquitectura)
+5. [Instalación y Uso](#instalación)
+6. [Análisis y Hallazgos](#análisis)
 
 ## 🛠️ Stack Tecnológico
 
