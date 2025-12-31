@@ -4,14 +4,36 @@
 Este proyecto ha sido creado con el propósito de obtener valor sobre los datos financieros de las 10.000 empresas más grandes de Colombia. Esta información es ofrecida por la Superintendencia de Sociedades, la cual reporta de forma anual los balances financieros de las 10.000 con mayor relevancia económica para un período específico comprendido entre los años 2021 a 2024. La ingesta de datos fue hecha mediante una API pública y luego procesar la información bruta y convertirla en insights valiosos que pueden ser útiles a persona interesadas en inversión y gobierno.
 
 ## Índice
+1. Diccionario
 1. Propósito del proyecto
 1. [Stack Tecnológico](#stack)
 2. [Arquitectura de Datos](#arquitectura)
 3. [Instalación y Uso](#instalación)
 4. [Análisis y Hallazgos](#análisis)
 
+## Diccionario
+
+| Campo (Interfaz) | Nombre Técnico (API) | Tipo | Descripción |
+| :--- | :--- | :--- | :--- |
+| **NIT** | `nit` | Número | Número de Identificación Tributaria de la Sociedad. |
+| **GANANCIA (PÉRDIDA)** | `ganancia_p_rdida` | Texto* | Ganancias registradas por la sociedad. |
+| **TOTAL ACTIVOS** | `total_activos` | Texto* | Total activos registrados por la sociedad. |
+| **TOTAL PASIVOS** | `total_pasivos` | Texto* | Total Pasivos registrados por la sociedad. |
+| **TOTAL PATRIMONIO** | `total_patrimonio` | Texto* | Total Patrimonio registrado por la sociedad. |
+| **Año de Corte** | `a_o_de_corte` | Número | Fecha en que finaliza el periodo contable. |
+| **RAZÓN SOCIAL** | `raz_n_social` | Texto | Nombre de la sociedad. |
+| **SUPERVISOR** | `supervisor` | Texto | Empresa que ejerce supervisión. |
+| **REGIÓN** | `regi_n` | Texto | Región Geográfica de la sociedad. |
+| **DEPARTAMENTO** | `departamento_domicilio` | Texto | Departamento de domicilio. |
+| **CIUDAD** | `ciudad_domicilio` | Texto | Ciudad de domicilio. |
+| **CIIU** | `ciiu` | Número | Clasificación Industrial Internacional Uniforme. |
+| **MACROSECTOR** | `macrosector` | Texto | Sector al que pertenece la sociedad. |
+| **INGRESOS OPERACIONALES**| `ingresos_operacionales`| Texto* | Ingresos operacionales registrados. |
+
+*\*Nota: Los campos marcados como "Texto" son transformados a numéricos en el proceso de ETL.*
+
 ## 💡 Propósito del proyecto
-La implementación se basó en diseñar una arquitectura ETL que extrajo, procesó, limpió y cargó los datos crudos obtenidos que suelen presentarse en un formato complejo (JSON) y ruidoso para generar información accionable que permita tomar decisiones acertadas. El resultado permite visualizar el panorama empresarial colombiano de manera automatizada, buscando responder preguntas como:
+La implementación se basó en diseñar una arquitectura ETL que extrajo, procesó, limpió y cargó los datos crudos que suelen presentarse en un formato complejo (JSON) y ruidoso para generar información accionable que permita tomar decisiones acertadas. El resultado permite visualizar el panorama empresarial colombiano de manera automatizada, buscando responder preguntas como:
   
   🧮 ¿Qué empresas han tenido un crecimiento positivo en su ganancia durante todos los años registrados? <br>
   🥇 En cada ciudad, ¿qué porcentaje de los ingresos totales de su sector captura la empresa líder? <br>
