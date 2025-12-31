@@ -11,13 +11,14 @@ Este proyecto ha sido creado con el propósito de obtener valor sobre los datos 
 
 ## Índice
 1. [Diccionario de campos](#diccionario)
-1. Propósito del proyecto
-2. [Arquitectura de Datos](#arquitectura)
-3. [Instalación y Uso](#instalación)
-4. [Análisis y Hallazgos](#análisis)
+2. [Propósito del proyecto](#proposito)
+3. [Arquitectura de Datos](#arquitectura)
+4. [Instalación y Uso](#instalación)
+5. [Análisis y Hallazgos](#análisis)
 
-## 📂 Diccionario de campos
 <a name="diccionario"></a>
+## 📂 Diccionario de campos
+
 
 | Campo (Interfaz) | Nombre Técnico (API) | Tipo | Descripción |
 | :--- | :--- | :--- | :--- |
@@ -38,6 +39,7 @@ Este proyecto ha sido creado con el propósito de obtener valor sobre los datos 
 
 *\*Nota: Los campos marcados como "Texto" son transformados a numéricos en el proceso de ETL.*
 
+<a name="proposito"></a>
 ## 💡 Propósito del proyecto
 La implementación se basó en diseñar una arquitectura ETL que extrajo, procesó, limpió y cargó los datos crudos que suelen presentarse en un formato complejo y ruidoso (JSON) para generar información accionable que permita tomar decisiones acertadas a las partes interesadas. El resultado permite visualizar el panorama empresarial colombiano de manera automatizada, buscando responder preguntas como:
   
@@ -45,9 +47,8 @@ La implementación se basó en diseñar una arquitectura ETL que extrajo, proces
   🥇 En cada ciudad, ¿qué porcentaje de los ingresos totales de su sector captura la empresa líder? <br>
   📊 ¿En qué departamentos de Colombia es más estratégico invertir según el macrosector económico?
    
-
-## 🏗️ Arquitectura de Datos
 <a name="arquitectura"></a>
+## 🏗️ Arquitectura de Datos
 El proyecto fue construido bajo un pipeline end-to-end automatizado que extrae los datos financieros más recientes de las empresas alojados en un servidor y compartidos a través de datos.gov.co. Se realiza la petición para consumo de datos y los devuelve a través de la API  en formato JSON.
 
 
