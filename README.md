@@ -54,7 +54,13 @@ El proyecto fue construido bajo un pipeline end-to-end automatizado que extrae l
 
 El viaje del dato:
 
-### Ingesta(Extract): Se consume la API de Socrata de la web datos.gov.co mediante la librería Request de Python garantizando la extracción total de 40.000 registros.
+**1. Ingesta(Extract)**: Se consume la API de Socrata de la web datos.gov.co mediante la librería Request de Python garantizando la extracción total de 40.000 registros.
+A partir de ahí, los datos se almacenan en una tabla estructurada gracias a la conversión de datos en formato JSON a Dataframe que ofrece la librería Pandas de Python.
+**2. Procesamiento y modelado**: Se castean los datos a tipo númerico para el caso de columnas con cifras. También se eliminan duplicados y se estandarizan las columnas tipo texto.
+Se realiza ingeniería de características mediante la creación de columnas que evalúan rendimientos financieros y se eliminan algunas irrelevantes para el análisis.
+
+
+
 
 
 
