@@ -73,18 +73,18 @@ Esta consulta filtra las empresas que superan el percentil 95 de su propio macro
 | Bananeras Agrofuturo SAS | Agropecuario | 100.00 | 2024 |
 | CI Golden Agri-Resources Colombia SAS | Comercio | 600.00 | 2024 |
 | Prolife Biotech Colombia SAS | Comercio | 425.00 | 2024 |
-| Sociedad De Comercializacion Internacional De Negocios Naranja Y Tecnologia Financiera SAS Bic | Comercio | 400.00 | 2024 |
+| Sociedad De Comercializacion Internacional De Negocios Naranja Y Tecnologia Financiera SAS BIC | Comercio | 400.00 | 2024 |
 | China Harbour Engineering Company Limited Colombia | Construcción | 580.00 | 2024 |
-| Byb Constructores SAS | Construcción | 350.00 | 2024 |
+| BYB Constructores SAS | Construcción | 350.00 | 2024 |
 | Concesionaria Vial Del Pacifico SAS | Construcción | 315.38 | 2024 |
-| Odin Petroil SA En Reestructuracion | Manufactura | 344.44 | 2024 |
-| Alambres Y Cables Tecnicos SAS | Manufactura | 250.00 | 2024 |
-| Panamericana De Alimentos SAS | Manufactura | 216.67 | 2024 |
+| Odin Petroil SA en Reestructuración | Manufactura | 344.44 | 2024 |
+| Alambres y Cables Técnicos SAS | Manufactura | 250.00 | 2024 |
+| Panamericana de Alimentos SAS | Manufactura | 216.67 | 2024 |
 | Puerto Arturo SAS | Minero | 400.00 | 2024 |
-| Mkms Enerji Sucursal Colombia | Minero | 220.00 | 2024 |
+| MKMS Enerji Sucursal Colombia | Minero | 220.00 | 2024 |
 | Promisol SAS | Minero | 83.33 | 2024 |
 | Micro Inversiones SAS | Servicios | 1900.00 | 2024 |
-| Greenyellow Energia De Colombia SAS | Servicios | 1000.00 | 2024 |
+| GreenYellow Energía de Colombia SAS | Servicios | 1000.00 | 2024 |
 | Latin Logistic Colombia SAS | Servicios | 850.00 | 2024 | <br>
 *\*Nota: Top 3 de empresas outliers por macrosector* <br>
 
