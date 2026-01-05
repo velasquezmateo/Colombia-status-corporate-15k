@@ -75,9 +75,9 @@ Esta consulta filtra las empresas que superan el percentil 95 de su propio macro
 | 🛒 Com | 1  | CI Golden Agri-Resources Colombia SAS | 600.0    |
 | 🛒 Com | 2  | Prolife Biotech Colombia SAS          | 425.0    |
 | 🛒 Com | 3  | Sociedad Comercialización Naranja    | 400.0    |
-| 🏗️ Con | 1  | China Harbour Engineering Colombia    | 580.0    |
-| 🏗️ Con | 2  | Byb Constructores SAS                 | 350.0    |
-| 🏗️ Con | 3  | Concesionaria Vial Del Pacifico SAS  | 315.38   |
+| 🏗️ Inf | 1  | China Harbour Engineering Colombia    | 580.0    |
+| 🏗️ Inf | 2  | Byb Constructores SAS                 | 350.0    |
+| 🏗️ Inf | 3  | Concesionaria Vial Del Pacifico SAS  | 315.38   |
 | 🏭 Man | 1  | Odin Petroil SA                       | 344.44   |
 | 🏭 Man | 2  | Alambres Y Cables Técnicos SAS        | 250.0    |
 | 🏭 Man | 3  | Panamericana De Alimentos SAS         | 216.67   |
@@ -86,8 +86,10 @@ Esta consulta filtra las empresas que superan el percentil 95 de su propio macro
 | ⛏️ Min | 3  | Promisol SAS                           | 83.33    |
 | 🧩 Ser | 1  | Micro Inversiones SAS                  | 1900.0   |
 | 🧩 Ser | 2  | Greenyellow Energia Colombia SAS       | 1000.0   |
-| 🧩 Ser | 3  | Latin Logistic Colombia SAS            | 850.0    | <br>
-*\*Nota: Top 3 de empresas outliers por macrosector* <br>
+| 🧩 Ser | 3  | Latin Logistic Colombia SAS            | 850.0    | 
+<br>
+*\*Nota: Top 3 de empresas outliers por macrosector* 
+<br>
 **El Fenómeno de Servicios**: Es impactante observar que en el sector Servicios, el crecimiento llega hasta un 1900% (Micro Inversiones SAS), lo cual es típico de modelos de base tecnológica. <br>
 
 **Construcción e Infraestructura**: El liderazgo de China Harbour Engineering con un 580% refleja la ejecución de grandes proyectos de infraestructura (4G/5G) en el país, un dato clave para el análisis del PIB nacional. <br>
