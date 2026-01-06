@@ -35,6 +35,7 @@ A pesar de estar inscritas en esta lista de las 10.000 empresas con mayores ingr
 | Co Internet SAS | Colombia Telecomunicaciones SA ESP - Telefonica | Compañia Nacional De Levaduras Levapan SA | Compunet SA | Construcciones El Condor SA | Constructora Conconcreto SA |
 | Directv Colombia Limitada | Durman Colombia SAS | Emerald Energy Plc Sucursal Colombia | Experts Colombia SAS | Fabricato SA | Ferrovial Construccion SA Sucursal Colombia |
 | Ford Motor Colombia SAS | Fundacion Delamujer Colombia SAS | Garces Eder SAS |  |  |  | <br>
+
 *\*Nota: Muestra del total de empresas en quiebra técnica* <br>
 
 ### 4.Calcular el índice de endeudamiento promedio por departamento
@@ -66,7 +67,7 @@ En general, la mayoría de las departamento poseen un nivel Medio. Pese a esto, 
 <br>
 ### 5. (Venture capital) Encontrar las empresas cuyos ingresos crecieron por encima del percentil 95 en su respectivo macrosector (outliers)
 Esta consulta filtra las empresas que superan el percentil 95 de su propio macrosector al cierre del año 2024. Estas empresas crecieron significativamente más que sus competidores, lo que las categoriza como empresas outliers de alto rendimiento, a menudo por modelos de negocio innovadores o ventajas tecnológicas. 
-<br>
+
 | Ind. | Rk | Empresa                               | Tasa (%) |
 |------|----|--------------------------------------|----------|
 | 🥑 Agr | 1  | Camposol Colombia SAS                 | 200.0    |
@@ -87,14 +88,22 @@ Esta consulta filtra las empresas que superan el percentil 95 de su propio macro
 | 🧩 Ser | 1  | Micro Inversiones SAS                  | 1900.0   |
 | 🧩 Ser | 2  | Greenyellow Energia Colombia SAS       | 1000.0   |
 | 🧩 Ser | 3  | Latin Logistic Colombia SAS            | 850.0    | 
-<br>
-*\*Nota: Top 3 de empresas outliers por macrosector* 
-<br>
+*\*Nota: Top 3 de empresas outliers por macrosector* <br>
 **El Fenómeno de Servicios**: Es impactante observar que en el sector Servicios, el crecimiento llega hasta un 1900% (Micro Inversiones SAS), lo cual es típico de modelos de base tecnológica. <br>
 
 **Construcción e Infraestructura**: El liderazgo de China Harbour Engineering con un 580% refleja la ejecución de grandes proyectos de infraestructura (4G/5G) en el país, un dato clave para el análisis del PIB nacional. <br>
 
 Outliers vs. Media: Mientras que el crecimiento promedio de la economía puede estar entre el 1% y 10%, estas empresas operan en una realidad distinta, superando el 100% de crecimiento anual en casi todos los sectores. <br>
+
+### 6. Detección de "Empresas Estrella" (Matriz BCG - Inversión)
+La matriz BCG es un cuadrante que permite clasificar a las empresas según el crecimiento dentro de su sector y qué tan fuerte es frente a sus competidores.
+| Categoría | Estrategia   | Hallazgo Clave |
+|:---------:|:------------:|----------------|
+| ⭐ Estrellas | Invertir | Empresas en sectores de alto crecimiento con dominancia de mercado. |
+| 🐄 Vacas | Ordeñar | Líderes en sectores maduros; generan el flujo de caja que sostiene la economía. |
+| ❓ Interrogantes | Analizar | Empresas en sectores explosivos pero con baja cuota; alto potencial de ser Estrellas. |
+| 🐕 Perros | Desinvertir | Empresas con bajo crecimiento y baja cuota; alto riesgo de estancamiento. |
+
 
 
 
