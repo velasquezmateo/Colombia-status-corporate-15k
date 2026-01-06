@@ -68,7 +68,7 @@ En general, la mayoría de las departamento poseen un nivel Medio. Pese a esto, 
 ### 5. (Venture capital) Encontrar las empresas cuyos ingresos crecieron por encima del percentil 95 en su respectivo macrosector (outliers)
 Esta consulta filtra las empresas que superan el percentil 95 de su propio macrosector al cierre del año 2024. Estas empresas crecieron significativamente más que sus competidores, lo que las categoriza como empresas outliers de alto rendimiento, a menudo por modelos de negocio innovadores o ventajas tecnológicas. 
 
-| Ind. | Rk | Empresa                               | Tasa (%) |
+| Industria | Rk | Empresa                               | Tasa (%) de crecimiento |
 |------|----|--------------------------------------|----------|
 | 🥑 Agr | 1  | Camposol Colombia SAS                 | 200.0    |
 | 🥑 Agr | 2  | Sociedad Comercialización Calafate SAS| 112.5    |
@@ -88,6 +88,8 @@ Esta consulta filtra las empresas que superan el percentil 95 de su propio macro
 | 🧩 Ser | 1  | Micro Inversiones SAS                  | 1900.0   |
 | 🧩 Ser | 2  | Greenyellow Energia Colombia SAS       | 1000.0   |
 | 🧩 Ser | 3  | Latin Logistic Colombia SAS            | 850.0    | 
+
+<br>
 *\*Nota: Top 3 de empresas outliers por macrosector* <br>
 **El Fenómeno de Servicios**: Es impactante observar que en el sector Servicios, el crecimiento llega hasta un 1900% (Micro Inversiones SAS), lo cual es típico de modelos de base tecnológica. <br>
 
@@ -104,6 +106,6 @@ La matriz BCG es un cuadrante que permite clasificar a las empresas según el cr
 | ❓ Interrogantes | Analizar | Empresas en sectores explosivos pero con baja cuota; alto potencial de ser Estrellas. |
 | 🐕 Perros | Desinvertir | Empresas con bajo crecimiento y baja cuota; alto riesgo de estancamiento. |
 
-
-
+El análisis revela que el sector servicios concentra la mayor cantidad de 'estrellas', mientras que el sector manufactura domina en empresas se desplaza hacia el cuadrante de las vacas, indicando empresas maduras y con una sólida economía. Por el otro lado están los 'interrogantes' donde continúan dominando las empresas de servicios, esto puede darse por escenarios donde se crean startups gracias al avance de la IA pero que aún no relfjan un dominio claro en su nicho. Por último están las empresas perro donde el comercio domina por su bajo crecimiento y/o estancamiento.<br>
+Estos datos reflejan que para cualquier inversor o emprendedor, es importante conocer de antemano el nicho en el cual desea desarrollar su idea o capital, pues el panorama actual en Colombia ofrece una diversificación de empresas que impulsan la economía, pero hay que saber encontrarla.
 
