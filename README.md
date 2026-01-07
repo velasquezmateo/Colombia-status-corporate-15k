@@ -1,6 +1,8 @@
 <h3 align="center"> 🏭 Situación financiera de las 10.000 empresas más grandes de Colombia </h3>
 
-<img width="554" height="170" alt="Sin título" src="https://github.com/user-attachments/assets/f261927b-56d1-4e58-ba6e-562704f415e0" />
+<p align="center">
+  <img width="554" height="170" alt="Sin título" src="https://github.com/user-attachments/assets/f261927b-56d1-4e58-ba6e-562704f415e0" />
+</p>
 
 ## 🎯 Descripción del Proyecto
 Este proyecto ha sido creado con el propósito de obtener valor sobre los datos financieros de las 10.000 empresas más grandes de Colombia. Esta información es ofrecida por la Superintendencia de Sociedades, la cual reporta de forma anual los balances financieros de las 10.000 con mayor relevancia económica para un período específico comprendido entre los años 2021 a 2024. El objetivo es identificar factores relevantes y tendencias relacionadas con su distribución geográfica, macrosector y año de estudio, agregando a su vez al análisis indicadores económicos claves que permitan generar una "radiografía" de su estados contables.
@@ -77,8 +79,15 @@ El viaje del dato:
 **1. Ingesta(Extract)**: Se consume la API de Socrata de la web datos.gov.co mediante la librería Requests de Python garantizando la extracción total de 40.000 registros. <br>
 A partir de ahí, los datos se almacenan en una tabla estructurada gracias a la conversión de datos en formato JSON a Dataframe que ofrece la librería Pandas de Python. <br>
 
-**2. Procesamiento y modelado**: Se castean los datos a tipo númerico para el caso de columnas con cifras. También se eliminan duplicados y se estandarizan las columnas tipo texto.
-Se realiza ingeniería de características mediante la creación de columnas que evalúan rendimientos financieros y se eliminan algunas irrelevantes para el análisis. <br>
+**2. Procesamiento y modelado**: 
+1. Se castean los datos a tipo númerico para el caso de columnas con cifras. También se eliminan duplicados y se estandarizan las columnas tipo texto.
+2. Se realiza ingeniería de características mediante la creación de columnas que evalúan rendimientos financieros, entre ellas:
+ - Margen neto
+ - Índice de endeudamiento
+ - ROA
+ - ROE
+ - Multiplicador capital <br>
+Por último se eliminan algunas irrelevantes para el análisis. <br>
 En esta estapa se normaliza el dataframe en cinco tablas dimensiones, configurando un **esquema estrella** con cinco tablas dimensiones y una tabla de hechos que contiene columnas numéricas y claves foráneas. <br>
 Se exportan las tablas al data warehouse MySQL a través del motor de SQLAlchemy. <br>
 
