@@ -52,6 +52,8 @@ Colombia-status-corporate-10k/
 ├── dashboard/
 │   ├── capturas/             # Screenshots del tablero interactivo
 │   └── reporte_final.pbix    # Archivo fuente de Power BI
+├── docs/
+│   └── insights.md           # Análisis de los datos
 ├── sql/
 │   └── queries_negocio.sql   # Consultas estratégicas (Análisis de datos)
 ├── src/
@@ -86,10 +88,16 @@ A partir de ahí, los datos se almacenan en una tabla estructurada gracias a la 
  - Índice de endeudamiento
  - ROA
  - ROE
- - Multiplicador capital <br>
+ - Multiplicador del capital
+<br>
 Por último se eliminan algunas irrelevantes para el análisis. <br>
-En esta estapa se normaliza el dataframe en cinco tablas dimensiones, configurando un **esquema estrella** con cinco tablas dimensiones y una tabla de hechos que contiene columnas numéricas y claves foráneas. <br>
+
+En esta estapa se crea un modelo de datos mediante un **esquema estrella** con cinco tablas dimensiones y una tabla de hechos que contiene columnas numéricas y claves foráneas. <br>
 Se exportan las tablas al data warehouse MySQL a través del motor de SQLAlchemy. <br>
+
+<p align="center">
+  <<img width="1408" height="768" alt="Gemini_Generated_Image_hjupyahjupyahjup" src="https://github.com/user-attachments/assets/cf94d18f-e5b7-426f-b322-916cd9ebd898" /> />
+</p>
 
 **3. Data warehouse**: Luego del data cleansing, se almacenan los datos en la base de datos de MySQL permitiendo realizar 9 consultas relevantes para el análisis exploratorio de los datos y probar la eficacia del modelo de datos previo a la exportación de las tablas a Power BI. Puedes ver el análisis en la base de datos MySQL [aquí](docs/insights_sql.md).
 
