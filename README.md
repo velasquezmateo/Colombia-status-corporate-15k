@@ -58,7 +58,6 @@ Colombia-status-corporate-10k/
 │   └── queries_negocio.sql   # Consultas estratégicas (Análisis de datos)
 ├── src/
 │   └── etl_pipeline.py       # Script principal: API → Limpieza → Modelo Estrella → MySQL
-├── .gitignore                # Exclusión de archivos temporales y locales
 ├── README.md                 # Documentación principal del proyecto
 └── requirements.txt          # Dependencias necesarias
 ```  
