@@ -63,11 +63,15 @@ Colombia-status-corporate-10k/
 
 <a name="proposito"></a>
 ## 💡 Propósito del proyecto
-El objetivo específico del proyecto se basó en diseñar una arquitectura ETL robusta que extrajo los datos crudos en formato JSON. Además, se creó un esquema estrella que normalizó los datos para respetar su integridad, eliminar redundancias y optimizar mejor las consultas con el fin de generar información accionable que permita tomar decisiones acertadas a las partes interesadas. El resultado final es un ecosistema automatizado que permite visualizar el panorama empresarial colombiano y responder preguntas estratégicas como:
+El objetivo específico del proyecto se basó en diseñar una "brújula" financiera que permita determinar a una organización su posición y dominio frente a sus competidores a través de métricas y KPIs que diagnostican sus virtudes y falencias, obteniendo una ventaja empresarial para una toma de acción eficaz. <br>
 
-  🧮 ¿Qué empresas han tenido un crecimiento positivo en su ganancia durante todos los años registrados? <br>
-  🥇 En cada ciudad, ¿qué porcentaje de los ingresos totales de su sector captura la empresa líder? <br>
-  📊 ¿En qué departamentos de Colombia es más estratégico invertir según el macrosector económico?
+Más que una herramientas estática, es un sistema de navegación que facilita a una organización su posición competitiva y dominio de mercado a través de la cual se pueden ejecutar algunos ejes de acción:<br>
+
+-**Gestión de riesgo de proveedores**: Facilita filtrar empresas contratistas con una salud financiera estable. Esto ayuda a cerrar negocios con empresas que tengan solvencia y margen de apalancamiento óptimos y evitar contratos con aquellas que se encuentren en un umbral de quiebra.<br>
+-**Benchmarking competitivo**: Conocer en qué lugar se encuentra parada la organización frente al promedio del sector. Revisar métricas como el ROE e ingresos totales para reestructurar (en caso de necesitarlo) el camino y seguir los pasos de las firmas que poseen un mayor dominio.<br>
+-**Expansión**: Las consultas efectuadas en el motor de bases de datos son una excelente herramienta de navegación para conocer en qué departamentos y macrosectores se agrupan las empresas con mayor crecimiento en ingresos y ganancias. <br>
+-**Selección de cartera de inversión**: Cada vez más, las empresas e inversionistas privados buscan en el estudio del análisis de los datos un recurso valioso para poner a trabajar su capital en aras de incrementar su patrimonio. Este proyecto permite descubrir gemas ocultas de empresas subvaloradas pero que se encuentran con una salud financiera envidiable frente a su competencia. Muchas de ellas cotizan en la Bolsa de Valores de Colombia (BVC) y con ayuda de este proyecto se pueden tomar decisiones basadas en datos que priorice la seguridad financiera frente a la especulación.<br>
+
    
 <a name="arquitectura"></a>
 ## 🏗️ Arquitectura de Datos
